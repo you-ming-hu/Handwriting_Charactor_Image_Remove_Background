@@ -28,17 +28,17 @@
 
 2. 字頻分布不均。可以參考檔案: dataset_inspection.ipynb
 
-   <img src="C:\Users\user\Dropbox\Portfolio\Handwriting_Charactor_Image_Remove_Background\readme_image\character_freq.png" alt="character_freq" style="zoom:30%;" />
+   <img src="https://github.com/you-ming-hu/Handwriting_Charactor_Image_Remove_Background/blob/master/readme_image/character_freq.png" alt="character_freq" style="zoom:30%;" />
 
 3. 每張圖片的色差問題十分明顯，存在許多雜訊，品質十分參差。
 
-   ![17_碩](C:\Users\user\Dropbox\Portfolio\Handwriting_Charactor_Image_Remove_Background\readme_image\17_碩.jpg)
+   ![17_碩](https://github.com/you-ming-hu/Handwriting_Charactor_Image_Remove_Background/blob/master/readme_image/17_%E7%A2%A9.jpg)
 
-   ![19_碩](C:\Users\user\Dropbox\Portfolio\Handwriting_Charactor_Image_Remove_Background\readme_image\19_碩.jpg)
+   ![19_碩](https://github.com/you-ming-hu/Handwriting_Charactor_Image_Remove_Background/blob/master/readme_image/19_%E7%A2%A9.jpg)
 
-   ![28_兆](C:\Users\user\Dropbox\Portfolio\Handwriting_Charactor_Image_Remove_Background\readme_image\28_兆.jpg)
+   ![28_兆](https://github.com/you-ming-hu/Handwriting_Charactor_Image_Remove_Background/blob/master/readme_image/28_%E5%85%86.jpg)
 
-   ![149_敏](C:\Users\user\Dropbox\Portfolio\Handwriting_Charactor_Image_Remove_Background\readme_image\149_敏.jpg)
+   ![149_敏](https://github.com/you-ming-hu/Handwriting_Charactor_Image_Remove_Background/blob/master/readme_image/149_%E6%95%8F.jpg)
 
 ## 發現:
 辨識圖片結構大致如下:
@@ -60,6 +60,7 @@
    **理論:**
 
    由於圖片的顏色分布相對單純，我認為圖片中文字在RGB空間中是可以分離的。先試著採用GMM的模型在RGB空間上粗略的把文字的部分分割出來。
+   
    參考文獻:
 
    https://ir.nctu.edu.tw/bitstream/11536/68068/7/251107.pdf?fbclid=IwAR2CInLudrncqHSadtydH3CkjtnOKlAuVw_NuJeV_VBLQsFHMG3thabpplc
@@ -106,7 +107,7 @@
 
    6. **成果示意圖:**
 
-      <img src="C:\Users\user\Dropbox\Portfolio\Handwriting_Charactor_Image_Remove_Background\readme_image\GMM示意圖.png" alt="GMM示意圖" style="zoom:50%;" />
+      <img src="https://github.com/you-ming-hu/Handwriting_Charactor_Image_Remove_Background/blob/master/readme_image/GMM%E7%A4%BA%E6%84%8F%E5%9C%96.png" alt="GMM示意圖" style="zoom:50%;" />
 
 2. **Deep Learning Models**
 
@@ -154,7 +155,7 @@
 
       5. **成果示意圖**
 
-         ![CNN_result](C:\Users\user\Dropbox\Portfolio\Handwriting_Charactor_Image_Remove_Background\readme_image\CNN_result.png)
+         ![CNN_result](https://github.com/you-ming-hu/Handwriting_Charactor_Image_Remove_Background/blob/master/readme_image/CNN_result.png)
 
 ## 結論:
 
